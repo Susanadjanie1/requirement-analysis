@@ -10,51 +10,76 @@ Requirement Analysis is the crucial initial phase in the Software Development Li
 
 # The process involves:
 
-* Elicitation: Gathering information from users, customers, and experts.
+* **Elicitation:** Gathering information from users, customers, and experts.
 
-* Analysis: Examining information for clarity, completeness, and feasibility.
+* **Analysis:** Examining information for clarity, completeness, and feasibility.
 
-* Documentation: Translating needs into clear, testable specifications (functional, non-functional, use cases, user stories).
+* **Documentation:** Translating needs into clear, testable specifications (functional, non-functional, use cases, user stories).
 
-* Validation: Confirming documented requirements with stakeholders.
+* **Validation:** Confirming documented requirements with stakeholders.
 
 # Requirement Analysis is importance because it:
 
-Forms the Foundation: Provides a clear direction for all subsequent development phases.
+* **Forms the Foundation:** Provides a clear direction for all subsequent development phases.
 
-Reduces Risk and Cost: Identifies issues early, minimizing expensive rework later.
+* **Reduces Risk and Cost:** Identifies issues early, minimizing expensive rework later.
 
-Ensures Satisfaction: Aligns the final product with stakeholder expectations.
+* **Ensures Satisfaction:** Aligns the final product with stakeholder expectations.
 
-Improves Communication: Fosters shared understanding among all parties.
+* **Improves Communication:** Fosters shared understanding among all parties.
 
-Enables Planning: Allows for more accurate project estimation and management.
+* **Enables Planning:** Allows for more accurate project estimation and management.
 
-Basis for Testing: Guides the creation of effective test cases.
 
 # Why is Requirement Analysis Important?
 ~ Requirement Analysis is critical in the SDLC for several key reasons:
 
-* Reduces Risks and Costs: By identifying and resolving issues early in the process, it significantly minimizes expensive rework, delays, and potential project failures that can arise from misunderstood requirements.
+* **Reduces Risks and Costs:** By identifying and resolving issues early in the process, it significantly minimizes expensive rework, delays, and potential project failures that can arise from misunderstood requirements.
 
-* Forms the Project Foundation: It provides a clear roadmap and direction for all subsequent development, design, and testing phases, ensuring everyone is building the right product.
+* **Forms the Project Foundation:** It provides a clear roadmap and direction for all subsequent development, design, and testing phases, ensuring everyone is building the right product.
 
-* Ensures Stakeholder Satisfaction: Thorough analysis directly aligns the final software product with the actual needs and expectations of users and stakeholders, leading to higher adoption and overall satisfaction.
+* **Ensures Stakeholder Satisfaction:** Thorough analysis directly aligns the final software product with the actual needs and expectations of users and stakeholders, leading to higher adoption and overall satisfaction.
 
 
 # Key Activities in Requirement Analysis
-Requirement Analysis is a multi-faceted process composed of several interconnected activities, each vital for ensuring the clarity and completeness of software requirements:
+*Requirement Analysis is a multi-faceted process composed of several interconnected activities, each vital for ensuring the clarity and completeness of software requirements:*
 
-* Requirement Gathering: This initial step involves identifying and collecting all relevant information from various sources and stakeholders. 
+* **Requirement Gathering:** This initial step involves identifying and collecting all relevant information from various sources and stakeholders. 
 This can involve reviewing existing documentation, observing current processes, and identifying key individuals.
 
-* Requirement Elicitation: This activity focuses on actively drawing out requirements from stakeholders.
+* **Requirement Elicitation:** This activity focuses on actively drawing out requirements from stakeholders.
  Common methods include interviews, workshops, brainstorming sessions, surveys, and prototyping to reveal detailed functional and non-functional requirements.
 
-* Requirement Analysis and Modeling: Once requirements are elicited, this phase involves scrutinizing, organizing, and structuring the collected information.
+* **Requirement Analysis and Modeling:** Once requirements are elicited, this phase involves scrutinizing, organizing, and structuring the collected information.
 It includes examining requirements for consistency, completeness, ambiguity, and feasibility. 
 
-* Requirement Documentation: This crucial activity involves formally writing down the agreed-upon requirements in a clear, unambiguous, and traceable manner.
+* **Requirement Documentation:** This crucial activity involves formally writing down the agreed-upon requirements in a clear, unambiguous, and traceable manner.
  The documentation serves as a single source of truth for all project stakeholders.
 
-* Requirement Validation: The final critical step ensures that the documented requirements accurately reflect the real needs of the stakeholders and are suitable for the development team. Validation helps to prevent building the wrong product by catching issues before design and development begin.
+* **Requirement Validation:** The final critical step ensures that the documented requirements accurately reflect the real needs of the stakeholders and are suitable for the development team. Validation helps to prevent building the wrong product by catching issues before design and development begin.
+
+
+# Types of Requirements
+Software requirements are broadly categorized into **Functional** and **Non-functional types**.
+
+# Functional Requirements defines what the system must do or its specific functions and behaviors.
+
+*Examples for a Booking Management Project:*
+
+* User Registration & Login: Allow users to register and securely log in.
+
+* Search for Availability: Enable users to search for bookings by criteria (date, time, type).
+
+* Make a Booking: Allow logged-in users to select and confirm an available slot.
+
+
+# Non-functional Requirements defines how well the system performs its functions or its quality attributes and constraints (e.g., performance, security, usability).
+
+*Examples for a Booking Management Project:*
+
+* Performance: Load search results within 2 seconds for up to 100 concurrent users.
+
+* Security: Encrypt user passwords at rest and in transit.
+
+* Usability: Ensure the booking process is intuitive and completable within 3 steps.
+
