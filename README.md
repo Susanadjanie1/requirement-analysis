@@ -95,5 +95,17 @@ A Use Case Diagram illustrates a set of use cases (functions the system provides
 
 * **User-Centric View:** Focuses on user goals, ensuring the system meets actual user needs.
 
+  **User**
+
+Register Account ,Login ,Search for Bookings, View Service Details, Make Booking, Cancel Booking, View My Bookings
+
+ **Admin**
+Login, Cancel Booking, Manage Users, Generate Reports
+
+**System**
+Login, Manage Services ,Manage Availability
+
+![image alt](https://github.com/Susanadjanie1/requirement-analysis/blob/cab3cff45636d1d8320bfc5b6cb19d9e92d73b66/alx-booking-uc.png)
+
 
 
