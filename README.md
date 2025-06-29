@@ -62,7 +62,7 @@ It includes examining requirements for consistency, completeness, ambiguity, and
 # Types of Requirements
 Software requirements are broadly categorized into **Functional** and **Non-functional types**.
 
-# Functional Requirements defines what the system must do or its specific functions and behaviors.
+**Functional Requirements** defines what the system must do or its specific functions and behaviors.
 
 *Examples for a Booking Management Project:*
 
@@ -73,7 +73,7 @@ Software requirements are broadly categorized into **Functional** and **Non-func
 * Make a Booking: Allow logged-in users to select and confirm an available slot.
 
 
-# Non-functional Requirements defines how well the system performs its functions or its quality attributes and constraints (e.g., performance, security, usability).
+**Non-functional Requirements** defines how well the system performs its functions or its quality attributes and constraints (e.g., performance, security, usability).
 
 *Examples for a Booking Management Project:*
 
@@ -82,4 +82,18 @@ Software requirements are broadly categorized into **Functional** and **Non-func
 * Security: Encrypt user passwords at rest and in transit.
 
 * Usability: Ensure the booking process is intuitive and completable within 3 steps.
+
+
+
+# What are Use Case Diagrams?
+A Use Case Diagram illustrates a set of use cases (functions the system provides) and actors (users or external systems that interact with the system). Each use case represents a specific goal that an actor wants to achieve using the system. The diagram shows the relationships between actors and use cases, and sometimes between use cases themselves (e.g., include or extend relationships).
+
+*Benefits of Use Case Diagrams;*
+* **Clear Communication:** Provides a simple, understandable overview of system functionality for both technical and non-technical stakeholders.
+
+* **Scope Definition:** Helps define the boundaries of the system and what functionalities will be included or excluded.
+
+* **User-Centric View:** Focuses on user goals, ensuring the system meets actual user needs.
+
+
 
