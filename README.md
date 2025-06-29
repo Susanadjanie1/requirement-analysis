@@ -107,5 +107,24 @@ Login, Manage Services ,Manage Availability
 
 ![image alt](https://github.com/Susanadjanie1/requirement-analysis/blob/cab3cff45636d1d8320bfc5b6cb19d9e92d73b66/alx-booking-uc.png)
 
+# Acceptance Criteria
+Acceptance Criteria are precise, verifiable conditions that a software feature must meet to be considered complete and acceptable.
+
+*Importance of Acceptance Criteria in Requirement Analysis:*
+
+* Provide Clarity
+
+* Guide Development & Testing
+
+* Reduce Rework: Help identify and fix misunderstandings or missing details early, preventing costly changes later.
+
+**Example of Acceptance Criteria for a "Checkout" Feature (Booking Management System):**
+
+*Feature: As a Customer, I want to be able to complete my booking payment, so that my reservation is confirmed.*
+
+**Acceptance Criteria-** Successful Payment: User enters valid card, clicks *"Confirm Payment,"* sees *"Payment Successful"* message, booking status becomes *"Confirmed,"* and confirmation email is sent.
+
+
+
 
 
